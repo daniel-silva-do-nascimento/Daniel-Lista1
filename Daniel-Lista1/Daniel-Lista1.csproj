@@ -95,5 +95,14 @@
   <ItemGroup>
     <None Include="Resources\circle-outline-64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-radius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,5 +21,34 @@ namespace Daniel_Lista1
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            label5.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double Vraio, pi, area;
+                Vraio = Convert.ToDouble(textBox1.Text);
+                pi = 3.14159;
+
+                area = (Vraio*2) * pi;
+
+                label5.Text = area.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite o valor do raio", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
