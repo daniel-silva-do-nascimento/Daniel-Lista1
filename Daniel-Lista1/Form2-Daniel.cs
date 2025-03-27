@@ -16,5 +16,10 @@ namespace Daniel_Lista1
         {
             InitializeComponent();
         }
+
+        private void Form2_Daniel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

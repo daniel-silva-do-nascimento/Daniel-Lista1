@@ -64,6 +64,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(432, 140);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -96,6 +97,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Window;
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Location = new System.Drawing.Point(626, 601);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 57);
@@ -130,16 +132,18 @@
             // label2
             // 
             this.label2.Image = global::Daniel_Lista1.Properties.Resources.r;
-            this.label2.Location = new System.Drawing.Point(8, 82);
+            this.label2.Location = new System.Drawing.Point(28, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 206);
+            this.label2.Size = new System.Drawing.Size(212, 196);
             this.label2.TabIndex = 1;
             // 
             // Form1
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -150,7 +154,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Calculadora da área de uma circunferência";
             this.ResumeLayout(false);

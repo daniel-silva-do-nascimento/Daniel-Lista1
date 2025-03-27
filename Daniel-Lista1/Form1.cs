@@ -41,7 +41,7 @@ namespace Daniel_Lista1
                 Vraio = Convert.ToDouble(textBox1.Text);
                 pi = 3.14159;
 
-                area = (Vraio*2) * pi;
+                area = (Vraio*Vraio) * pi;
 
                 label5.Text = area.ToString();
             }

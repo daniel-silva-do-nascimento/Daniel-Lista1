@@ -119,5 +119,15 @@ namespace Daniel_Lista1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vecteezy_school_blackboard_with_wooden_frame_dirty_textured_chalkboard_8502535 {
+            get {
+                object obj = ResourceManager.GetObject("vecteezy_school-blackboard-with-wooden-frame-dirty-textured-chalkboard_8502535", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
