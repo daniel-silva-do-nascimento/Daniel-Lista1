@@ -70,6 +70,18 @@
     <Compile Include="Form4-Daniel.Designer.cs">
       <DependentUpon>Form4-Daniel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5-Daniel.Designer.cs">
+      <DependentUpon>Form5-Daniel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6-Daniel.Designer.cs">
+      <DependentUpon>Form6-Daniel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -77,6 +89,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2-Daniel.resx">
       <DependentUpon>Form2-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4-Daniel.resx">
+      <DependentUpon>Form4-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5-Daniel.resx">
+      <DependentUpon>Form5-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6-Daniel.resx">
+      <DependentUpon>Form6-Daniel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,6 +142,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vecteezy_school-blackboard-with-wooden-frame-dirty-textured-chalkboard_8502535.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thermometers-8442663_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hot-and-Cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hot-and-Cold_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hot-and-Cold_waifu2x_art_noise3_.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

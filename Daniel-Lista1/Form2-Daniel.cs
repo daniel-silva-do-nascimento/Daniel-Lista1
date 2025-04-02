@@ -57,5 +57,10 @@ namespace Daniel_Lista1
                 MessageBox.Show("Digite os valores necessários", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

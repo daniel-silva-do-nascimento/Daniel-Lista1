@@ -93,6 +93,36 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hot_and_Cold {
+            get {
+                object obj = ResourceManager.GetObject("Hot-and-Cold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hot_and_Cold_waifu2x_art_noise3_ {
+            get {
+                object obj = ResourceManager.GetObject("Hot-and-Cold_waifu2x_art_noise3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hot_and_Cold_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("Hot-and-Cold_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pi_64 {
             get {
                 object obj = ResourceManager.GetObject("pi-64", resourceCulture);
@@ -116,6 +146,16 @@ namespace Daniel_Lista1.Properties {
         internal static System.Drawing.Bitmap raio {
             get {
                 object obj = ResourceManager.GetObject("raio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thermometers_8442663_1280 {
+            get {
+                object obj = ResourceManager.GetObject("thermometers-8442663_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
