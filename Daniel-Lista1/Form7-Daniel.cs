@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Daniel_Lista1
+{
+    public partial class Form7_Daniel : Form
+    {
+        public Form7_Daniel()
+        {
+            InitializeComponent();
+        }
+        double vViagem, tViagem, dViagem, luViagem;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            vViagem = Convert.ToDouble(textBox1.Text);
+            tViagem = Convert.ToDouble(textBox2.Text);
+
+            dViagem = vViagem * tViagem;
+
+            label4.Text = dViagem.ToString();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            luViagem = dViagem / 12;
+        }
+    }
+}

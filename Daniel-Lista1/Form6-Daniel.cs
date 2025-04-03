@@ -21,5 +21,42 @@ namespace Daniel_Lista1
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double raio, volO, alt, volL;
+
+                raio = Convert.ToDouble(textBox1.Text);
+                alt = Convert.ToDouble(textBox2.Text);
+                volO = 3.14159;
+
+                volL = volO * (raio * raio) * alt;
+
+                label4.Text = volL.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para a conversão", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            label4.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

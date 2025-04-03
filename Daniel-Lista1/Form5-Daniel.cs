@@ -24,7 +24,7 @@ namespace Daniel_Lista1
 
                 vF = Convert.ToDouble(textBox1.Text);
 
-                vC = (9 * vF + 160) / 5;
+                vC = (vF - 32) * 5 / 9;
 
                 label4.Text = vC.ToString();
             } catch (FormatException)

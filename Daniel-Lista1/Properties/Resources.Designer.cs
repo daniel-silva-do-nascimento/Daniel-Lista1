@@ -123,6 +123,16 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap oil {
+            get {
+                object obj = ResourceManager.GetObject("oil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pi_64 {
             get {
                 object obj = ResourceManager.GetObject("pi-64", resourceCulture);
