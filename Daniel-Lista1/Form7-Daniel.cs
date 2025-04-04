@@ -18,6 +18,19 @@ namespace Daniel_Lista1
         }
         double vViagem, tViagem, dViagem, luViagem;
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            label4.Text = "";
+            label7.Text = "";
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             vViagem = Convert.ToDouble(textBox1.Text);
@@ -30,6 +43,7 @@ namespace Daniel_Lista1
         private void button4_Click(object sender, EventArgs e)
         {
             luViagem = dViagem / 12;
+            label7.Text = luViagem.ToString();
         }
     }
 }

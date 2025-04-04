@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form10-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10-Daniel.Designer.cs">
+      <DependentUpon>Form10-Daniel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2-Daniel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,10 +94,25 @@
     <Compile Include="Form7-Daniel.Designer.cs">
       <DependentUpon>Form7-Daniel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form8-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8-Daniel.Designer.cs">
+      <DependentUpon>Form8-Daniel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9-Daniel.Designer.cs">
+      <DependentUpon>Form9-Daniel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10-Daniel.resx">
+      <DependentUpon>Form10-Daniel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2-Daniel.resx">
       <DependentUpon>Form2-Daniel.cs</DependentUpon>
@@ -107,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form7-Daniel.resx">
       <DependentUpon>Form7-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8-Daniel.resx">
+      <DependentUpon>Form8-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9-Daniel.resx">
+      <DependentUpon>Form9-Daniel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

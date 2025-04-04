@@ -46,11 +46,11 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(167, 275);
+            this.label5.Location = new System.Drawing.Point(136, 275);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(298, 77);
+            this.label5.Size = new System.Drawing.Size(339, 77);
             this.label5.TabIndex = 41;
-            this.label5.Text = "Digite a velocidade em que a viagem foi feita:";
+            this.label5.Text = "Digite a velocidade em que a viagem foi feita (km):";
             // 
             // textBox2
             // 
@@ -81,6 +81,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -92,6 +93,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -109,11 +111,11 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(260, 471);
+            this.label3.Location = new System.Drawing.Point(201, 471);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 33);
+            this.label3.Size = new System.Drawing.Size(220, 33);
             this.label3.TabIndex = 38;
-            this.label3.Text = "Distância:";
+            this.label3.Text = "Distância (km/h):";
             // 
             // textBox1
             // 
@@ -127,11 +129,11 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(133, 216);
+            this.label2.Location = new System.Drawing.Point(101, 216);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(332, 33);
+            this.label2.Size = new System.Drawing.Size(374, 33);
             this.label2.TabIndex = 35;
-            this.label2.Text = "Digite o tempo da viagem:";
+            this.label2.Text = "Digite o tempo da viagem (h):";
             // 
             // label1
             // 
@@ -160,11 +162,11 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(201, 667);
+            this.label6.Location = new System.Drawing.Point(190, 667);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(205, 33);
+            this.label6.Size = new System.Drawing.Size(231, 33);
             this.label6.TabIndex = 43;
-            this.label6.Text = "Litros Usados:";
+            this.label6.Text = "Litros Usados (L):";
             // 
             // label7
             // 
