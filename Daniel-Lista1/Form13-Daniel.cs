@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace Daniel_Lista1
 {
-    public partial class Form8_Daniel : Form
+    public partial class Form13_Daniel: Form
     {
-        public Form8_Daniel()
+        public Form13_Daniel()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox2.Clear();
             textBox1.Clear();
+            textBox2.Clear();
             label6.Text = "";
-            label7.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -32,19 +31,14 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double vl1, vl2, troca1, troca2;
+            double vl1, vl2, somQuad;
 
             vl1 = Convert.ToDouble(textBox1.Text);
             vl2 = Convert.ToDouble(textBox2.Text);
 
-            troca1 = vl2;
-            troca2 = vl1;
+            somQuad = Math.Pow(vl1, 2) + Math.Pow(vl2, 2);
 
-            vl2 = troca2;
-            vl1 = troca1;
-
-            label6.Text = vl1.ToString();
-            label7.Text = vl2.ToString();
+            label6.Text = somQuad.ToString();
         }
     }
 }
