@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Daniel_Lista1
 {
-    public partial class Form10_Daniel : Form
+    public partial class Form16_Daniel : Form
     {
-        public Form10_Daniel()
+        public Form16_Daniel()
         {
             InitializeComponent();
         }
@@ -20,8 +20,6 @@ namespace Daniel_Lista1
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
             label6.Text = "";
         }
 
@@ -34,19 +32,17 @@ namespace Daniel_Lista1
         {
             try
             {
-                double alt, larg, comp, vol;
+                double kmh, ms;
 
-                alt = Convert.ToDouble(textBox1.Text);
-                larg = Convert.ToDouble(textBox2.Text);
-                comp = Convert.ToDouble(textBox3.Text);
+                kmh = Convert.ToDouble(textBox1.Text);
 
-                vol = alt * larg * comp;
+                ms = kmh / 3.6;
 
-                label6.Text = vol.ToString();
+                label6.Text = ms.ToString();
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite os valores necessários para o cálculo", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Digite os valores necessários para a conversão", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

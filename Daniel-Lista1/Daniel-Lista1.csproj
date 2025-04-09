@@ -97,6 +97,24 @@
     <Compile Include="Form14-Daniel.Designer.cs">
       <DependentUpon>Form14-Daniel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form16-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16-Daniel.Designer.cs">
+      <DependentUpon>Form16-Daniel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17-Daniel.Designer.cs">
+      <DependentUpon>Form17-Daniel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18-Daniel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18-Daniel.Designer.cs">
+      <DependentUpon>Form18-Daniel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2-Daniel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,8 +183,20 @@
     <EmbeddedResource Include="Form14-Daniel.resx">
       <DependentUpon>Form14-Daniel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form16-Daniel.resx">
+      <DependentUpon>Form16-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17-Daniel.resx">
+      <DependentUpon>Form17-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18-Daniel.resx">
+      <DependentUpon>Form18-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2-Daniel.resx">
       <DependentUpon>Form2-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3-Daniel.resx">
+      <DependentUpon>Form3-Daniel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form4-Daniel.resx">
       <DependentUpon>Form4-Daniel.cs</DependentUpon>

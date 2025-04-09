@@ -10,47 +10,41 @@ using System.Windows.Forms;
 
 namespace Daniel_Lista1
 {
-    public partial class Form6_Daniel : Form
+    public partial class Form17_Daniel : Form
     {
-        public Form6_Daniel()
+        public Form17_Daniel()
         {
             InitializeComponent();
-        }
-
-        private void Form6_Daniel_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                double raio, volO, alt, volL;
+                int int1, int2;
+                double resto, quo;
 
-                raio = Convert.ToDouble(textBox1.Text);
-                alt = Convert.ToDouble(textBox2.Text);
-                volO = 3.14159;
+                int1 = Convert.ToInt32(textBox1.Text);
+                int2 = Convert.ToInt32(textBox2.Text);
 
-                volL = volO * (raio * raio) * alt;
+                quo = int1 / int2;
+                resto = int1 % int2;
 
-                label4.Text = volL.ToString();
+                label6.Text = quo.ToString();
+                label4.Text = resto.ToString();
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite os valores necessários para o cálculo", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Digite os valores necessários para a conversão", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();
+            label6.Text = "";
             label4.Text = "";
         }
 

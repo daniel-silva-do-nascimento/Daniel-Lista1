@@ -68,7 +68,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(404, 33);
-            this.textBox1.TabIndex = 46;
+            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
@@ -77,7 +77,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(404, 39);
-            this.textBox2.TabIndex = 47;
+            this.textBox2.TabIndex = 1;
             // 
             // label2
             // 
@@ -104,7 +104,7 @@
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(404, 39);
-            this.textBox3.TabIndex = 50;
+            this.textBox3.TabIndex = 2;
             // 
             // button1
             // 
@@ -114,7 +114,7 @@
             this.button1.Location = new System.Drawing.Point(431, 397);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 86);
-            this.button1.TabIndex = 52;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -127,7 +127,7 @@
             this.button2.Location = new System.Drawing.Point(278, 601);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 86);
-            this.button2.TabIndex = 53;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -140,7 +140,7 @@
             this.button3.Location = new System.Drawing.Point(584, 601);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 86);
-            this.button3.TabIndex = 54;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);

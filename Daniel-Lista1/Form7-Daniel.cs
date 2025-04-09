@@ -33,12 +33,19 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            vViagem = Convert.ToDouble(textBox1.Text);
-            tViagem = Convert.ToDouble(textBox2.Text);
+            try
+            {
+                vViagem = Convert.ToDouble(textBox1.Text);
+                tViagem = Convert.ToDouble(textBox2.Text);
 
-            dViagem = vViagem * tViagem;
+                dViagem = vViagem * tViagem;
 
-            label4.Text = dViagem.ToString();
+                label4.Text = dViagem.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para o cálculo", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         private void button4_Click(object sender, EventArgs e)
         {

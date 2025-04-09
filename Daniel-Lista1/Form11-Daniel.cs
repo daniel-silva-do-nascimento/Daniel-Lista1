@@ -19,15 +19,22 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double valor, quad, cub;
+            try
+            {
+                double valor, quad, cub;
 
-            valor = Convert.ToDouble(textBox1.Text);
+                valor = Convert.ToDouble(textBox1.Text);
 
-            quad = valor * valor;
-            cub = valor * (valor * valor);
+                quad = valor * valor;
+                cub = valor * (valor * valor);
 
-            label6.Text = quad.ToString();
-            label7.Text = cub.ToString();
+                label6.Text = quad.ToString();
+                label7.Text = cub.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para o cálculo", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

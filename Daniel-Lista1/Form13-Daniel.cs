@@ -31,14 +31,21 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double vl1, vl2, somQuad;
+            try
+            {
+                double vl1, vl2, somQuad;
 
-            vl1 = Convert.ToDouble(textBox1.Text);
-            vl2 = Convert.ToDouble(textBox2.Text);
+                vl1 = Convert.ToDouble(textBox1.Text);
+                vl2 = Convert.ToDouble(textBox2.Text);
 
-            somQuad = Math.Pow(vl1, 2) + Math.Pow(vl2, 2);
+                somQuad = Math.Pow(vl1, 2) + Math.Pow(vl2, 2);
 
-            label6.Text = somQuad.ToString();
+                label6.Text = somQuad.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para a soma dos quadrados", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

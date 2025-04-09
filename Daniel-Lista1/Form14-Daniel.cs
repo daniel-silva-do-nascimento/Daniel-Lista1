@@ -19,15 +19,34 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int Val1, Val2;
-            double Media;
+            try
+            {
+                int Val1, Val2;
+                double Media;
 
-            Val1 = Convert.ToInt32(textBox1.Text);
-            Val2 = Convert.ToInt32(textBox2.Text);
+                Val1 = Convert.ToInt32(textBox1.Text);
+                Val2 = Convert.ToInt32(textBox2.Text);
 
-            Media = (Val1 + Val2) / 2;
+                Media = (Val1 + Val2) / 2;
 
-            label6.Text = Media.ToString();
+                label6.Text = Media.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para a média", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label6.Text = "";
+            textBox1.Clear();
+            textBox2.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

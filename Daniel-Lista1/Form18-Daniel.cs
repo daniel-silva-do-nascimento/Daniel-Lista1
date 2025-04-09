@@ -10,35 +10,29 @@ using System.Windows.Forms;
 
 namespace Daniel_Lista1
 {
-    public partial class Form12_Daniel: Form
+    public partial class Form18_Daniel : Form
     {
-        public Form12_Daniel()
+        public Form18_Daniel()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                double vl1, vl2, quadSom;
+            double slB, slL, desc10;
 
-                vl1 = Convert.ToDouble(textBox1.Text);
-                vl2 = Convert.ToDouble(textBox2.Text);
+            slB = Convert.ToDouble(textBox1.Text);
 
-                quadSom = Math.Pow((vl1 + vl2), 2);
-                label6.Text = quadSom.ToString();
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Digite os valores necessários para calcular o quadrado da soma", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            desc10 = slB * (10 / 100);
+
+            slL = desc10 * (5 / 100);
+
+            label6.Text = slL.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            textBox2.Clear();
             label6.Text = "";
         }
 

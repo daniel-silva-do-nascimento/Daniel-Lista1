@@ -32,19 +32,26 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double vl1, vl2, troca1, troca2;
+            try
+            {
+                double vl1, vl2, troca1, troca2;
 
-            vl1 = Convert.ToDouble(textBox1.Text);
-            vl2 = Convert.ToDouble(textBox2.Text);
+                vl1 = Convert.ToDouble(textBox1.Text);
+                vl2 = Convert.ToDouble(textBox2.Text);
 
-            troca1 = vl2;
-            troca2 = vl1;
+                troca1 = vl2;
+                troca2 = vl1;
 
-            vl2 = troca2;
-            vl1 = troca1;
+                vl2 = troca2;
+                vl1 = troca1;
 
-            label6.Text = vl1.ToString();
-            label7.Text = vl2.ToString();
+                label6.Text = vl1.ToString();
+                label7.Text = vl2.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para o cálculo", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }
