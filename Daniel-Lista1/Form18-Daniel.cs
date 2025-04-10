@@ -19,15 +19,27 @@ namespace Daniel_Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double slB, slL, desc10;
+            
+            try
+            {
+                double slB, slL, desc10;
+                int div10, div5;
 
-            slB = Convert.ToDouble(textBox1.Text);
+                slB = Convert.ToDouble(textBox1.Text);
+                div10 = 10;
+                div5 = 5;
 
-            desc10 = slB * (10 / 100);
 
-            slL = desc10 * (5 / 100);
+                desc10 = slB *  div10 / 100;
 
-            label6.Text = slL.ToString();
+                slL = desc10 * div5 / 100;
+
+                label6.Text = slL.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Digite os valores necessários para o cálculo de desconto", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
