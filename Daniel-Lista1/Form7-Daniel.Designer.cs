@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7_Daniel));
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -75,7 +76,7 @@
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(604, 747);
+            this.button3.Location = new System.Drawing.Point(603, 666);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 71);
             this.button3.TabIndex = 5;
@@ -87,7 +88,7 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(276, 747);
+            this.button2.Location = new System.Drawing.Point(275, 666);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 71);
             this.button2.TabIndex = 4;
@@ -151,7 +152,7 @@
             this.button4.BackColor = System.Drawing.SystemColors.Control;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(431, 540);
+            this.button4.Location = new System.Drawing.Point(431, 507);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(147, 107);
             this.button4.TabIndex = 3;
@@ -162,7 +163,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(190, 667);
+            this.label6.Location = new System.Drawing.Point(190, 618);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(231, 33);
             this.label6.TabIndex = 43;
@@ -172,16 +173,20 @@
             // 
             this.label7.BackColor = System.Drawing.SystemColors.Window;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(428, 667);
+            this.label7.Location = new System.Drawing.Point(428, 617);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(380, 33);
             this.label7.TabIndex = 44;
             // 
             // Form7_Daniel
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 830);
+            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.trip;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.button3;
+            this.ClientSize = new System.Drawing.Size(1008, 749);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button4);
@@ -195,7 +200,11 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form7_Daniel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora da quantidade de litros de combustível gastos em uma viagem utilizand" +
     "o um automóvel que faz 12 Km por litro";
             this.ResumeLayout(false);

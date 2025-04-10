@@ -308,5 +308,41 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\distri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-aritmetica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vehi.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3_Daniel));
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -82,6 +83,7 @@
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.SystemColors.Window;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(60, 9);
             this.label4.Name = "label4";
@@ -131,7 +133,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackColor = System.Drawing.SystemColors.Window;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.FlatAppearance.BorderSize = 5;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -154,7 +156,7 @@
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label13.Location = new System.Drawing.Point(487, 533);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(164, 37);
+            this.label13.Size = new System.Drawing.Size(316, 37);
             this.label13.TabIndex = 33;
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -166,7 +168,7 @@
             this.label12.ForeColor = System.Drawing.Color.Cyan;
             this.label12.Location = new System.Drawing.Point(457, 496);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(177, 37);
+            this.label12.Size = new System.Drawing.Size(346, 37);
             this.label12.TabIndex = 32;
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -178,7 +180,7 @@
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label11.Location = new System.Drawing.Point(457, 459);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(177, 37);
+            this.label11.Size = new System.Drawing.Size(346, 37);
             this.label11.TabIndex = 31;
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -217,7 +219,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackColor = System.Drawing.SystemColors.Window;
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.FlatAppearance.BorderSize = 5;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -234,7 +236,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
             this.button1.FlatAppearance.BorderSize = 5;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -250,9 +252,13 @@
             // 
             // Form3_Daniel
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
+            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.money;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label13);
@@ -270,7 +276,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form3_Daniel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Salário líquido";
             this.Load += new System.EventHandler(this.Form3_Daniel_Load);
             this.ResumeLayout(false);

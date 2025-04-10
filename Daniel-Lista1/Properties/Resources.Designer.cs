@@ -63,6 +63,26 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4 {
+            get {
+                object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circ {
+            get {
+                object obj = ResourceManager.GetObject("circ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circle_64 {
             get {
                 object obj = ResourceManager.GetObject("circle-64", resourceCulture);
@@ -93,6 +113,26 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cube {
+            get {
+                object obj = ResourceManager.GetObject("cube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap distri {
+            get {
+                object obj = ResourceManager.GetObject("distri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hot_and_Cold {
             get {
                 object obj = ResourceManager.GetObject("Hot-and-Cold", resourceCulture);
@@ -116,6 +156,26 @@ namespace Daniel_Lista1.Properties {
         internal static System.Drawing.Bitmap Hot_and_Cold_waifu2x_art_noise3_scale {
             get {
                 object obj = ResourceManager.GetObject("Hot-and-Cold_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap media_aritmetica {
+            get {
+                object obj = ResourceManager.GetObject("media-aritmetica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap money {
+            get {
+                object obj = ResourceManager.GetObject("money", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +223,36 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ray {
+            get {
+                object obj = ResourceManager.GetObject("ray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap square {
+            get {
+                object obj = ResourceManager.GetObject("square", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap square__1_ {
+            get {
+                object obj = ResourceManager.GetObject("square (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap thermometers_8442663_1280 {
             get {
                 object obj = ResourceManager.GetObject("thermometers-8442663_1280", resourceCulture);
@@ -173,9 +263,39 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap trade {
+            get {
+                object obj = ResourceManager.GetObject("trade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trip {
+            get {
+                object obj = ResourceManager.GetObject("trip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vecteezy_school_blackboard_with_wooden_frame_dirty_textured_chalkboard_8502535 {
             get {
                 object obj = ResourceManager.GetObject("vecteezy_school-blackboard-with-wooden-frame-dirty-textured-chalkboard_8502535", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vehi {
+            get {
+                object obj = ResourceManager.GetObject("vehi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

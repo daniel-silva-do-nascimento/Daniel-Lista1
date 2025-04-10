@@ -188,6 +188,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form2_Daniel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Soma";
             this.Load += new System.EventHandler(this.Form2_Daniel_Load);
             this.ResumeLayout(false);
