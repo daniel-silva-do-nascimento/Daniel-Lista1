@@ -63,9 +63,29 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _13_Tips_And_Tricks_To_Become_Better_At_Math_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("13-Tips-And-Tricks-To-Become-Better-At-Math_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4 {
             get {
                 object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B1LDEevYH7L {
+            get {
+                object obj = ResourceManager.GetObject("B1LDEevYH7L", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

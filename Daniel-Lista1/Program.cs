@@ -16,7 +16,7 @@ namespace Daniel_Lista1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form9_Daniel());
+            Application.Run(new Form11_Daniel());
         }
     }
 }

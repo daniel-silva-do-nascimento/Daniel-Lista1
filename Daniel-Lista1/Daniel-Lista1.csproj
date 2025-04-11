@@ -210,8 +210,14 @@
     <EmbeddedResource Include="Form18-Daniel.resx">
       <DependentUpon>Form18-Daniel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form19-Daniel.resx">
+      <DependentUpon>Form19-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2-Daniel.resx">
       <DependentUpon>Form2-Daniel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20-Daniel.resx">
+      <DependentUpon>Form20-Daniel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form21-Daniel.resx">
       <DependentUpon>Form21-Daniel.cs</DependentUpon>
@@ -343,6 +349,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vehi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13-Tips-And-Tricks-To-Become-Better-At-Math_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B1LDEevYH7L.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

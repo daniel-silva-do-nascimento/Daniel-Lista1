@@ -133,11 +133,14 @@
   <data name="circ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="media-aritmetica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-aritmetica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pi-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pi-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="media-aritmetica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media-aritmetica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="square (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hot-and-Cold_waifu2x_art_noise3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hot-and-Cold_waifu2x_art_noise3_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,20 +151,23 @@
   <data name="ray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="13-Tips-And-Tricks-To-Become-Better-At-Math_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13-Tips-And-Tricks-To-Become-Better-At-Math_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="oil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vecteezy_school-blackboard-with-wooden-frame-dirty-textured-chalkboard_8502535" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vecteezy_school-blackboard-with-wooden-frame-dirty-textured-chalkboard_8502535.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hot-and-Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hot-and-Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Hot-and-Cold_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hot-and-Cold_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circle-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle-64.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="square" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,11 +178,11 @@
   <data name="raio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\raio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vehi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vehi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="square (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hot-and-Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hot-and-Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="thermometers-8442663_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thermometers-8442663_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +193,7 @@
   <data name="cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vehi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vehi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B1LDEevYH7L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B1LDEevYH7L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

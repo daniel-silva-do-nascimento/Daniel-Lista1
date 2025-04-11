@@ -21,9 +21,9 @@ namespace Daniel_Lista1
         {
             try
             {
-                double valor, quad, cub;
+                int valor, quad, cub;
 
-                valor = Convert.ToDouble(textBox1.Text);
+                valor = Convert.ToInt32(textBox1.Text);
 
                 quad = valor * valor;
                 cub = valor * (valor * valor);

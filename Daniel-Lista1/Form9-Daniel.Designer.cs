@@ -425,7 +425,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.distri;
+            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources._13_Tips_And_Tricks_To_Become_Better_At_Math_waifu2x_art_noise3_scale;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1364, 749);
             this.Controls.Add(this.label24);
