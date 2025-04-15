@@ -356,5 +356,20 @@
   <ItemGroup>
     <None Include="Resources\B1LDEevYH7L.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vehi_waifu2x_noise0_scale4x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-aritmetica_waifu2x_noise0_scale4x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary_waifu2x_noise0_scale4x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divisao_waifu2x_noise0_scale4x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matricula_waifu2x_noise0_scale4x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

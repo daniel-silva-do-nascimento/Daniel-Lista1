@@ -153,6 +153,16 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap divisao_waifu2x_noise0_scale4x {
+            get {
+                object obj = ResourceManager.GetObject("divisao_waifu2x_noise0_scale4x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hot_and_Cold {
             get {
                 object obj = ResourceManager.GetObject("Hot-and-Cold", resourceCulture);
@@ -183,9 +193,29 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap matricula_waifu2x_noise0_scale4x {
+            get {
+                object obj = ResourceManager.GetObject("matricula_waifu2x_noise0_scale4x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap media_aritmetica {
             get {
                 object obj = ResourceManager.GetObject("media-aritmetica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap media_aritmetica_waifu2x_noise0_scale4x {
+            get {
+                object obj = ResourceManager.GetObject("media-aritmetica_waifu2x_noise0_scale4x", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +276,16 @@ namespace Daniel_Lista1.Properties {
         internal static System.Drawing.Bitmap ray {
             get {
                 object obj = ResourceManager.GetObject("ray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap salary_waifu2x_noise0_scale4x {
+            get {
+                object obj = ResourceManager.GetObject("salary_waifu2x_noise0_scale4x", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +356,16 @@ namespace Daniel_Lista1.Properties {
         internal static System.Drawing.Bitmap vehi {
             get {
                 object obj = ResourceManager.GetObject("vehi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vehi_waifu2x_noise0_scale4x {
+            get {
+                object obj = ResourceManager.GetObject("vehi_waifu2x_noise0_scale4x", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
