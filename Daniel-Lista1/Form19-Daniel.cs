@@ -27,6 +27,7 @@ namespace Daniel_Lista1
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
+            label6.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -47,7 +48,7 @@ namespace Daniel_Lista1
 
                 aammdd = aa + "/" + mm + "/" + dd;
 
-                label6.Text = aammdd.ToString();
+                label6.Text = aammdd;
             }
             catch (FormatException)
             {
