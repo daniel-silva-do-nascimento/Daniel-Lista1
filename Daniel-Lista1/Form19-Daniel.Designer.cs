@@ -45,10 +45,9 @@
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(848, 737);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(636, 599);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(196, 106);
+            this.button3.Size = new System.Drawing.Size(147, 86);
             this.button3.TabIndex = 55;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
@@ -59,10 +58,9 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(331, 737);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(248, 599);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(196, 106);
+            this.button2.Size = new System.Drawing.Size(147, 86);
             this.button2.TabIndex = 54;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
@@ -73,10 +71,9 @@
             this.label6.BackColor = System.Drawing.SystemColors.Window;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(661, 618);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(496, 502);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(538, 83);
+            this.label6.Size = new System.Drawing.Size(404, 68);
             this.label6.TabIndex = 61;
             // 
             // button1
@@ -84,10 +81,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(566, 486);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(431, 322);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 106);
+            this.button1.Size = new System.Drawing.Size(147, 86);
             this.button1.TabIndex = 53;
             this.button1.Text = "Converter";
             this.button1.UseVisualStyleBackColor = false;
@@ -96,21 +92,19 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(661, 246);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Location = new System.Drawing.Point(496, 200);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(537, 83);
+            this.textBox1.Size = new System.Drawing.Size(404, 68);
             this.textBox1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.Window;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(144, 246);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(108, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(509, 84);
+            this.label2.Size = new System.Drawing.Size(382, 68);
             this.label2.TabIndex = 57;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -118,10 +112,9 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(109, 14);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(82, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1125, 203);
+            this.label1.Size = new System.Drawing.Size(844, 165);
             this.label1.TabIndex = 56;
             this.label1.Text = "Este aplicativo lerá uma data no formato DDMMAA e converterá essa data no formato" +
     " AAMMDD";
@@ -132,23 +125,22 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.Window;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(144, 618);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(108, 502);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(509, 84);
+            this.label3.Size = new System.Drawing.Size(382, 68);
             this.label3.TabIndex = 62;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form19_Daniel
             // 
             this.AcceptButton = this.button1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.B1LDEevYH7L;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button3;
-            this.ClientSize = new System.Drawing.Size(1344, 898);
+            this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -159,7 +151,6 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form19_Daniel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

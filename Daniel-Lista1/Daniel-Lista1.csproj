@@ -374,5 +374,23 @@
   <ItemGroup>
     <None Include="Resources\nome.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixa_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trade_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\troca_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trip_waifu2x_art_noise3_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carro viage.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

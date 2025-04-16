@@ -46,7 +46,7 @@
             this.label7.BackColor = System.Drawing.SystemColors.Window;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(363, 575);
+            this.label7.Location = new System.Drawing.Point(431, 523);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(291, 39);
             this.label7.TabIndex = 60;
@@ -56,15 +56,16 @@
             this.label6.BackColor = System.Drawing.SystemColors.Window;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(363, 520);
+            this.label6.Location = new System.Drawing.Point(431, 468);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(291, 39);
             this.label6.TabIndex = 59;
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.SystemColors.Window;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(270, 575);
+            this.label4.Location = new System.Drawing.Point(338, 523);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 39);
             this.label4.TabIndex = 58;
@@ -72,8 +73,9 @@
             // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(211, 521);
+            this.label3.Location = new System.Drawing.Point(279, 469);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 39);
             this.label3.TabIndex = 57;
@@ -84,7 +86,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(431, 402);
+            this.button1.Location = new System.Drawing.Point(431, 322);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 86);
             this.button1.TabIndex = 1;
@@ -103,6 +105,7 @@
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(154, 205);
             this.label2.Name = "label2";
@@ -112,6 +115,7 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(80, 40);
@@ -126,7 +130,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(276, 632);
+            this.button2.Location = new System.Drawing.Point(273, 580);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 86);
             this.button2.TabIndex = 2;
@@ -139,7 +143,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(584, 632);
+            this.button3.Location = new System.Drawing.Point(581, 580);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 86);
             this.button3.TabIndex = 3;
@@ -165,6 +169,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form11_Daniel";
             this.Text = "Calculadora de quadrado e cubo de um número";

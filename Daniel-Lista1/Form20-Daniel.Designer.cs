@@ -43,10 +43,9 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.Window;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(175, 670);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(131, 506);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(509, 84);
+            this.label3.Size = new System.Drawing.Size(382, 68);
             this.label3.TabIndex = 74;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -56,10 +55,9 @@
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(864, 780);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(659, 594);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(196, 106);
+            this.button3.Size = new System.Drawing.Size(147, 86);
             this.button3.TabIndex = 70;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
@@ -69,10 +67,9 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(347, 780);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(271, 594);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(196, 106);
+            this.button2.Size = new System.Drawing.Size(147, 86);
             this.button2.TabIndex = 69;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
@@ -82,10 +79,9 @@
             this.label6.BackColor = System.Drawing.SystemColors.Window;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(692, 670);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(519, 506);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(538, 83);
+            this.label6.Size = new System.Drawing.Size(404, 68);
             this.label6.TabIndex = 73;
             // 
             // button1
@@ -93,10 +89,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(604, 479);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(453, 389);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 106);
+            this.button1.Size = new System.Drawing.Size(147, 86);
             this.button1.TabIndex = 68;
             this.button1.Text = "Converter";
             this.button1.UseVisualStyleBackColor = false;
@@ -105,21 +100,19 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(692, 293);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Location = new System.Drawing.Point(519, 238);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(537, 83);
+            this.textBox1.Size = new System.Drawing.Size(404, 68);
             this.textBox1.TabIndex = 67;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.Window;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(175, 293);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(131, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(509, 84);
+            this.label2.Size = new System.Drawing.Size(382, 68);
             this.label2.TabIndex = 72;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -127,10 +120,9 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(93, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(70, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1219, 229);
+            this.label1.Size = new System.Drawing.Size(914, 186);
             this.label1.TabIndex = 71;
             this.label1.Text = "Este aplicativo lerá uma matrícula  AASDDD (A = últimos digitos do ano da matricu" +
     "la; S = semetre da matrícula; D = ordem da matrícula) e apresentará o ano e o se" +
@@ -140,13 +132,13 @@
             // Form20_Daniel
             // 
             this.AcceptButton = this.button1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.matricula_waifu2x_noise0_scale4x;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button3;
-            this.ClientSize = new System.Drawing.Size(1407, 898);
+            this.ClientSize = new System.Drawing.Size(1055, 730);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -157,7 +149,6 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form20_Daniel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

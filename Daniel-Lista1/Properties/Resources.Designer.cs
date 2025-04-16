@@ -93,6 +93,26 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap caixa_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("caixa_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carro_viage {
+            get {
+                object obj = ResourceManager.GetObject("carro viage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circ {
             get {
                 object obj = ResourceManager.GetObject("circ", resourceCulture);
@@ -126,6 +146,16 @@ namespace Daniel_Lista1.Properties {
         internal static System.Drawing.Bitmap circle_radius {
             get {
                 object obj = ResourceManager.GetObject("circle-radius", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circulos {
+            get {
+                object obj = ResourceManager.GetObject("circulos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +373,39 @@ namespace Daniel_Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap trade_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("trade_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap trip {
             get {
                 object obj = ResourceManager.GetObject("trip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trip_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("trip_waifu2x_art_noise3_scale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap troca_waifu2x_art_noise3_scale {
+            get {
+                object obj = ResourceManager.GetObject("troca_waifu2x_art_noise3_scale", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

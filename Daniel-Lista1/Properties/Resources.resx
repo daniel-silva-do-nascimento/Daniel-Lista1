@@ -133,6 +133,9 @@
   <data name="pi-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pi-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="circulos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circulos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="trade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +154,14 @@
   <data name="circle-radius" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle-radius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trade_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trade_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Hot-and-Cold_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hot-and-Cold_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troca_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troca_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -162,6 +171,12 @@
   </data>
   <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trip_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trip_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trip" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,7 +226,10 @@
   <data name="divisao_waifu2x_noise0_scale4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\divisao_waifu2x_noise0_scale4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="caixa_waifu2x_art_noise3_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caixa_waifu2x_art_noise3_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carro viage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carro viage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

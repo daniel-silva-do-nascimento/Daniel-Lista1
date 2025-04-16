@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.circ;
+            this.BackgroundImage = global::Daniel_Lista1.Properties.Resources.circulos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1008, 730);
