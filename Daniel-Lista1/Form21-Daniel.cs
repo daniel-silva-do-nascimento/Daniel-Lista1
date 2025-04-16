@@ -62,5 +62,10 @@ namespace Daniel_Lista1
                 MessageBox.Show("Digite o nome e/ou sobrenome faltante", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void Form21_Daniel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

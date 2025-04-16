@@ -41,6 +41,9 @@ namespace Daniel_Lista1
                 dViagem = vViagem * tViagem;
 
                 label4.Text = dViagem.ToString();
+
+                luViagem = dViagem / 12;
+                label7.Text = luViagem.ToString();
             }
             catch (FormatException)
             {
@@ -49,8 +52,7 @@ namespace Daniel_Lista1
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            luViagem = dViagem / 12;
-            label7.Text = luViagem.ToString();
+            
         }
     }
 }

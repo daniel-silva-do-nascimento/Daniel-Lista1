@@ -371,5 +371,8 @@
   <ItemGroup>
     <None Include="Resources\matricula_waifu2x_noise0_scale4x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nome.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
