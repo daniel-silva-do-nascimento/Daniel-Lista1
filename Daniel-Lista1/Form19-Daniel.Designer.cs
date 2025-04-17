@@ -52,7 +52,7 @@
             this.button3.Location = new System.Drawing.Point(636, 599);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 86);
-            this.button3.TabIndex = 55;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -65,7 +65,7 @@
             this.button2.Location = new System.Drawing.Point(248, 599);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 86);
-            this.button2.TabIndex = 54;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -88,7 +88,7 @@
             this.button1.Location = new System.Drawing.Point(427, 427);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 86);
-            this.button1.TabIndex = 53;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Converter";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -144,7 +144,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(404, 68);
-            this.textBox2.TabIndex = 63;
+            this.textBox2.TabIndex = 1;
             // 
             // label4
             // 
@@ -164,7 +164,7 @@
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(404, 68);
-            this.textBox3.TabIndex = 65;
+            this.textBox3.TabIndex = 2;
             // 
             // label5
             // 
