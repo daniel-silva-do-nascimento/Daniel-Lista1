@@ -46,7 +46,7 @@ namespace Daniel_Lista1
                 mm = Convert.ToInt32(textBox2.Text);
                 aa = Convert.ToInt32(textBox3.Text);
 
-                aammdd = aa + "/" + mm + "/" + dd;
+                aammdd = string.Concat(aa + "/" + mm + "/" + dd);
 
                 label6.Text = aammdd;
             }
