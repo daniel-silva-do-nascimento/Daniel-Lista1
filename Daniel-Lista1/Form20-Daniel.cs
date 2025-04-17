@@ -34,7 +34,7 @@ namespace Daniel_Lista1
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite os valores necessários para a mostragem", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Digite os valores necessários para a apresentação", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

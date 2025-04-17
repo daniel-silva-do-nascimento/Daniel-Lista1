@@ -99,9 +99,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(458, 417);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 86);
+            this.button1.Size = new System.Drawing.Size(165, 86);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Mostrar";
+            this.button1.Text = "Apresentar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -157,7 +157,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(435, 65);
             this.label5.TabIndex = 77;
-            this.label5.Text = "Digite a ordem da matrícula (código):";
+            this.label5.Text = "Digite a ordem da matrícula (código(4 digitos)):";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
