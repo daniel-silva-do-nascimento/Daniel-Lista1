@@ -26,8 +26,8 @@ namespace Daniel_Lista1
                 int div10, div5;
 
                 slB = Convert.ToDouble(textBox1.Text);
-                div10 = 10;
-                div5 = 5;
+                div10 = 90;
+                div5 = 95;
 
 
                 desc10 = slB *  div10 / 100;
